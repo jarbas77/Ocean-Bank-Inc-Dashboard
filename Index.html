@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Bank Inc. Dashboard</title>
+    <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>     
+<body>     
+    <div class="container">
+        <div class="navbar">
+            <div class="logo d">
+                <img src="assets/logo.png" width="36px" alt="Ocean Bank Inc logo">
+                <span class="logoname">Ocean Bank Inc</span>
+            </div>
+
+            <div class="searchbox d">
+                <form action="#">
+                    <input type="text" placeholder="Search">
+                    <i class="fa fa-search"></i>
+                </form>
+            </div>
+
+            <div class="navitem d">
+                <div class="icons">
+                    <ul>
+                        <li><i class="fa fa-envelope"></i></li>
+                        <li><i class="fa fa-bell"></i></li>
+                    </ul>
+                </div>
+
+                <div class="account">
+                    <img src="assets/icon.png" width="25px" height="25px" alt="User Icon">
+                    <span class="name">David Amaral da Silva</span>
+                    <span class="username">@davidsilvacb94</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar bg">
+            <ul>
+                <li class="dashboard">
+                    <i class="fa fa-signal"></i>
+                    <a href="#">Dashboard</a> 
+                    <div class="togglebtn"></div>  
+                </li>
+  
+          <div class="toggle">
+                <li>
+                    <i class="fa fa-money"></i>
+                    <a href="#">Balance</a>
+                </li>
+
+                <li>
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="#">Invoice</a>
+                </li>
+
+                <li>
+                    <i class="fa fa-credit-card-alt"></i>
+                    <a href="#">Card</a>
+                </li>
+
+                <li>
+                    <i class="fa fa-history"></i>
+                    <a href="#">History</a>
+                </li>
+
+                <li>
+                    <i class="fa fa-info-circle"></i>
+                    <a href="#">Details</a>
+                </li>  
+            </div>
+            </ul>
+        </div>
+
+        <div class="header">
+            <div class="tittle">
+                <h2>Hello David Silva,</h2>
+                <h1>Overview</h1>
+            </div>
+        </div>
+
+        <div class="card1 bg card  row-1">
+            <div class="box">
+                <div class="logo">
+                    <i class="fa fa-file"></i>
+                </div>
+
+                <div class="content">
+                    <h1>Your Wallet</h1>
+                    <h2>198.875,00€</h2>
+                    <h3>Get 20% off all your future purchases</h3>
+                    <a href="#">View more details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card2 bg card  row-1">
+            <div class="box">
+                <div class="logo">
+                    <i class="fa fa-file-text"></i>
+                </div>
+
+                <div class="content">
+                    <h1>Money Saved</h1>
+                    <h2>11.543€</h2>
+                    <h3>See where you could save even more</h3>
+                    <a href="#">View more details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card3 bg card  row-1">
+            <div class="box">
+                <div class="logo">
+                    <i class="fa fa-paper-plane"></i>
+                </div>
+                <div class="content">
+                    <h1>Your Credit Score</h1>
+                    <h2>9.6</h2>
+                    <h3>This score is your monthly income</h3>
+                    <a href="#">View score details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="graph bg">
+            <div class="chart">
+                <div class="status">Website status</div>
+                <div class="box">
+                    <li style="--i:0"><span class="text">Oct 7</span></li>
+                    <li style="--i:1"><span class="text">Oct 8</span></li>
+                    <li style="--i:2"><span class="text">Oct 9</span></li>
+                    <li style="--i:3"><span class="text">Oct 10</span></li>
+                    <li style="--i:4"><span class="text">Oct 11</span></li>
+                    <li style="--i:5"><span class="text">Oct 12</span></li>
+                </div>
+                <ul>
+                    <li>1000</li>
+                    <li>800</li>
+                    <li>400</li>
+                    <li>100</li>
+                    <li>50</li>
+                    <li>0</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="debitcard">
+            <img src="assets/creditcard.png" width="100%" height="100%" alt="Credit Card">
+        </div>
+
+        <div class="card4 bg card row-2">
+            <div class="box">
+                <div class="logo">
+                    <i class="fa fa-bar-chart"></i>
+                </div>
+
+                <div class="content">
+                    <h1>85.7%</h1>
+                    <h2>Your crypto earnings this month</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="card5 bg card row-2">
+            <div class="box">
+                <div class="logo">
+                    <i class="fa fa-address-card"></i>
+                </div>
+
+                <div class="content">
+                    <h1>79.867€</h1>
+                    <h2>From other sources of revenue</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="card6 bg card row-2">
+            <div class="box">
+                <div class="logo">
+                    <i class="fa fa-desktop"></i>
+                </div>
+
+                <div class="content">
+                    <h1>23.4%</h1>
+                    <h2>See your growth projections</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+        $(document).ready(function(){
+            $(".togglebtn").click(function(){
+                $(".toggle").slideToggle();
+            });
+
+            $(".togglebtn").click(function(){
+                $(".togglebtn").toggleClass("active");
+            });
+        });
+</script>
+</html>
+
